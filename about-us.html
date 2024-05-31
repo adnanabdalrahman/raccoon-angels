@@ -5,22 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raccoon Angel</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="assests/css/about-us.css">
 </head>
-<body>
+<body class="bg-gray-100 text-gray-900">
     <header>
-            <h1>Raccoon Angel</h1>
-        
+        <div class="px-48  bg-[#BF3655]">
+            <nav class="flex items-center justify-between flex-wrap p-4">
+                <div class="flex items-center flex-shrink-0 text-white mr-6">
+                    <a href="index.html">
+                        <img class="w-32" src="assests/img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <ul class="flex">
+                    <li class="mr-14">
+                    <a class="uppercase  delay-75 duration-300 text-white font-bold mx-5 py-4 pt-1 hover:text-black" href="index.html">Home</a>
+                    </li>
+                    <li class="mr-14">
+                    <a class="uppercase delay-75 duration-300 text-white font-bold hover:text-black" href="about-us.html">Über uns</a>
+                    </li>
+                    <li class="mr-14">
+                    <a class="uppercase delay-75 duration-300 text-white font-bold hover:text-black" href="contact.html">Kontakt</a>
+                    </li>
+                    <li class="mr-14">
+                    <a class="uppercase delay-75 duration-300 text-white font-bold hover:text-black und" href="#">Unterstützen</a>
+                    </li>
+                    <li class="mr-14">
+                    <a class="uppercase delay-75 duration-300 text-white font-bold hover:text-black" href="#">Projekte</a>
+                    </li>
+                </ul>
+                </nav>  
+        </div> 
     </header>
-    <body class="bg-gray-100 text-gray-900">
-        <div class="max-w-3xl mx-auto my-12 p-6 bg-white rounded-lg shadow-lg">
-            <section class="mb-8">
+
+
+
+    <div class="container max-w-3xl mx-auto my-12 p-8 bg-white rounded-lg shadow-lg">
+        <section class="mb-8">
                 <h2 class="text-3xl font-bold text-center text-[#BF3655] mb-6 border-b-2 border-[#BF3655] pb-2">About Us</h2>
                 <p class="mb-6 text-center">
                     Welcome to Raccoon Angel! We are a dedicated team of animal lovers committed to rescuing and rehabilitating raccoons in need. Our mission is to provide a safe haven for injured, orphaned, and abandoned raccoons, giving them the care and love they deserve.
                 </p>
                 <section class="mb-8 text-center">
-                    <img src="Waschbär.jpg" alt="Raccoon Image" class="mx-auto mb-6 rounded-lg shadow-md">
+                    <img src="assests/img/Waschbär.jpg" alt="Raccoon Image" class="mx-auto mb-6 rounded-lg shadow-md">
                 </section>
                 <p class="mb-6 text-center">
                     At Raccoon Angel, we believe every raccoon has the right to a happy and healthy life. Our experienced team works tirelessly to ensure that each animal receives the best possible care. From medical treatment to a loving environment, we strive to prepare our raccoons for a successful release back into the wild or a safe life in sanctuary.
@@ -28,25 +53,15 @@
                 <p class="text-center">
                     Join us in our mission to protect and preserve the raccoon population. Together, we can make a difference, one raccoon at a time.
                 </p>
-            </section>
-      
+        </section>
+    </div>
 
-    <footer>
-        <div class="bg-[#bf3655] text-white flex">
-            <div class="flex-col justify-center">
-                <img class="w-80" src="assests\img\logo.png" alt="Logo">
+    <footer class="bg-[#bf3655] text-white">
+        <div class="flex justify-between items-center pr-32">
+            <div class="flex-col py-4 justify-center">
+                <img class="w-56 px-12" src="assests\img\logo.png" alt="Logo">
             </div>           
-            <div class="pl-1 pt-24 flex">
-                <div class="w-40">
-                    <ul class="list-none">
-                        <li class="mr-14 pb-2 font-bold">Social Media</li>
-                        <div class="flex">
-                            <a href="#"><img class="w-3/5 pl-0.1 pb-0.1" src="assests\img\social media_facebook_icon.png" alt="Facebook"></a>
-                            <a href="#"><img class="w-3/5 pl-0.1 pb-0.1" src="assests\img\social media_instagram_icon.png" alt="Instagram"></a>
-                            <a href="#"><img class="w-3/5 pl-0.1 pb-0.1" src="assests\img\video_youtube_icon.png" alt="Youtube"></a>
-                        </div>
-                    </ul>
-                </div>
+            <div class="pl-1 flex">
                 <ul class="list-none pl-3">                        
                     <li class="mr-14 font-bold">Unterstützen</li>
                     <li class="mr-10 pl-1 pb-1">
@@ -56,23 +71,48 @@
                         <a class="text-white hover:text-black" href="#">Spenden</a>
                     </li>
                     <li class="mr-10 pl-1 pb-1">
-                        <a class="text-white hover:text-black" href="#">Fanartikel kaufen</a>
+                        <a class="text-white hover:text-black" href="#">Fanartikel</a>
                     </li>
                     <li class="mr-10 pl-1 pb-1">
                         <a class="text-white hover:text-black" href="#">Kontakt</a>
                     </li>
                 </ul>
-                <ul class="list-none pl-3">
-                    <li class="mr-14 font-bold">Rechtliches</li>
+                <div class="w-40">
+                    <ul class="list-none">
+                        <li class="mr-14 pb-2 font-bold">Social Media</li>
+                        <div class="flex">
+                            <a href="#"><img class="w-20 p-4" src="assests\img\social media_facebook_icon.png" alt="Facebook"></a>
+                            <a href="#"><img class="w-20 p-4" src="assests\img\social media_instagram_icon.png" alt="Instagram"></a>
+                            <a href="#"><img class="w-20 p-4" src="assests\img\video_youtube_icon.png" alt="Youtube"></a>
+                        </div>
+                    </ul>
+                </div>
+                <ul class="list-none pl-3">                        
+                    <li class="mr-14 font-bold">Infos</li>
                     <li class="mr-10 pl-1 pb-1">
-                        <a class="text-white hover:text-black" href="#">Impressum</a>
+                        Raccoon Angels
                     </li>
                     <li class="mr-10 pl-1 pb-1">
-                        <a class="text-white hover:text-black" href="#">Datenschutz</a>
+                        3909 NE 163rd St, North Miami Beach
                     </li>
                     <li class="mr-10 pl-1 pb-1">
-                        Copyright
+                        Telefon: +1 46 272 7791
+                    </li>
+                    <li class="mr-10 pl-1 pb-1">
+                        <a class="text-white hover:text-black" href="mailto:info@raccoon-angel.com">info@raccoon-angel.com</a>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <div class="flex justify-center pr-8 list-none">
+            <li class="mr-10 pl-1 pb-1">
+                <a class="text-white hover:text-black" href="#">Impressum</a>
+            </li>
+            <li class="mr-10 pl-1 pb-1">
+                <a class="text-white hover:text-black" href="#">Datenschutz</a>
+            </li>
+            <p>©2024 Raccoon Angels</p>
         </div>
     </footer>
+    </body>
+</html>
